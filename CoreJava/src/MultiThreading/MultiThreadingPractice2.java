@@ -18,7 +18,7 @@ public class MultiThreadingPractice2 {
 		MyRunnable r=new MyRunnable();
 		Thread t= new Thread(r);
 		t.start();
-		t.join();
+//		t.join();
 //		t.yield();
 //		t.setName("Yash");
 		System.out.println("Current Thread name "+Thread.currentThread().getName());
