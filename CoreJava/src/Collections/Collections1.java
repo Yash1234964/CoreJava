@@ -13,6 +13,7 @@ public class Collections1 {
       System.out.println(arr);
       arr.add(2,10);
       System.out.println(arr);
+      System.out.println(arr.get(4));
 	}
 
 }
