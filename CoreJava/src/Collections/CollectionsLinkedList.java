@@ -18,7 +18,21 @@ public class CollectionsLinkedList {
 	      System.out.println(arr.get(4));
 	      System.out.println(arr.getFirst());
 	      
+	      Iterator it= arr.iterator();
+            
+	      while(it.hasNext()==true) {
+	    	  System.out.println(it.next());
+	      }
+	      ListIterator it1= arr.listIterator(arr.size());
+          
+	      while(it1.hasPrevious()==true) {
+	    	  System.out.print(it1.previous()+" ");
+	      }
+	System.out.println();
+	
+	Iterator it3=arr.descendingIterator();
+	while(it3.hasNext()==true)
+		System.out.print(it3.next()+" ");
 
-	}
-
+}
 }
