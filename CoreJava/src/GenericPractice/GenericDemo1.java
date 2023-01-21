@@ -10,6 +10,8 @@ class Solve<T extends String>{
 //		this.num=num;
 	}
 	
+	
+	
 }
 
 
@@ -23,6 +25,8 @@ public class GenericDemo1 {
 //		System.out.println(solve.num);
 		
 
+//		ArrayList<Integer> arr= new ArrayList<T extends Number>();
+		
 	}
 
 }
